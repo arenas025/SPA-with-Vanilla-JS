@@ -15,8 +15,13 @@ body {
 }
 
 .Header a {
+    font-size: 30px;
     text-decoration: none;
     color: #15302C;
+}
+
+.Header-logo{
+    font-size: 50px;
 }
 
 .Main {
@@ -33,6 +38,24 @@ body {
     display: grid;
 }
 
+.Characters h2{
+    color:white;
+    width: 100%;
+    background-color: black;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.Characters a{
+    text-decoration: none;
+}
+
+.Characters img{
+    border-radius: 40px;
+}
+
 .Characters-inner {
     grid-template-columns: 1fr 2fr;
     grid-gap: 1.5rem;
@@ -42,9 +65,11 @@ body {
 
 .Characters-card {
     text-decoration: none;
+    background-color: black;
     box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
     border-radius: 5px;
     margin: 0 0 20px 0;
+    color: white;
     display: block;
     animation-duration: 2s;
     animation-name: fade;
